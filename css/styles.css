@@ -13,18 +13,25 @@ h1{
     /*padding: 0px 30px 0px 0px;*/
 } 
 
+h2{
+    font-family:"Lora", Times, serif;
+    font-size: 42px;
+    color: #7c878e;
+    font-weight: 200;
+}
 
 h3{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 32px;
     line-height: 30px;
     padding: 0px 15px 0px 0px;    
     color: #7C878E;
 }
 
+
 h4{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 30px;
     padding: 0px 15px 0px 0px;
     font-weight: 400;
@@ -43,6 +50,20 @@ button{
     cursor: pointer;
     font-size: 16px;
 }
+
+.white{
+    color: white;
+}
+
+.bggrey{
+    background-color: #f3f3f3;
+}
+
+.bgblue{
+    background-color: #BFE0F2;
+}
+
+
 
 /*OverLay*/
 
@@ -105,7 +126,7 @@ header{
 }
 
 nav{
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     font-size: 18px;
     float: right;
@@ -154,10 +175,6 @@ img{
     width: 300px;
 }
 
-.white{
-    color: white;
-}
-
 /* My Skills CSS Flex*/
 .flexContainer{
     display: flex;
@@ -185,9 +202,9 @@ img{
 }
 
 .gridLeft{
-    border-right: 1px solid #cccccc;
+    /*border-right: 1px solid #cccccc;*/
     text-align: center;
-    padding: 16px 0px 16px 0px;
+    padding: 30px 0px 30px 0px;
     cursor: pointer;
 }
 
@@ -196,7 +213,15 @@ img{
 }
 
 .borderTop{
-    border-top: 2px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+.skillset{
+    padding-bottom: 76px;
+}
+
+.skillset img{
+    padding-right: 12px;
 }
 
 /*footer styles*/
