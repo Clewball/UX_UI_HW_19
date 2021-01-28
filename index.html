@@ -19,10 +19,11 @@
             </ul>
         </nav>
     </header>
+   
     <section class="heroimg">
         <div class="content">
             <div class="rightframe">
-                <img src="images/me.png" class="imgpad">
+                <img src="images/me.png" id="itisi" class="imgpad">
             </div>
             <div class="leftframe">
                 <h1>Hello! I’m Nate Jolley - UX Researcher &amp; UI Designer from Salt Lake City.</h1>
@@ -31,11 +32,19 @@
                     graduate seeking a position in the UX/UI design field. Seeking to change the trajectory of my career 
                     path to aim for new heights and achieve my  personal and professional goals. 
                 </p>
-                <button>Download Resume</button>
+                <button id="ctaresume">Download Resume</button>
+                <div id="overlay">
+                    <div id="popup">
+                       <div id="close">X</div>
+                       <h2>Thank You!</h2>
+                       <p>
+                           Thank you for downloading my resumue. I look forward hearing from you!
+                       </p>
+                </div>
             </div>
-        </div>
+        </div>       
     </section>
-
+    
     <!-- My Work Section constructed by CSS Grid-->
     <section class="myWork">        
         <div class="content">
@@ -114,4 +123,10 @@
         </ul>
     </footer>
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+</script>
+<script src="js/index.js"></script>
 </html>
