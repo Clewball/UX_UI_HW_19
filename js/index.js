@@ -37,6 +37,10 @@ $(document).ready(function(){
     });
 });
 
+/*scroll reveal*/
+ScrollReveal().reveal('.reveal700', { delay: 700 });
+ScrollReveal().reveal('.reveal1200', { delay: 1200 });
+
 
 
 

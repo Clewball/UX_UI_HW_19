@@ -64,17 +64,6 @@ button{
 }
 
 
-
-/*OverLay*/
-
-/*button {
-    background: #000;
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 3px;
- }*/
  
  #overlay {
     position: fixed;
@@ -106,9 +95,6 @@ button{
     cursor: pointer;
     color: #000;
  }
-
- /*end OverLay*/
-
 
 header{
     background-color: #00263A;
@@ -226,8 +212,8 @@ img{
 
 /*footer styles*/
 footer{
-    background-color: #00263A;    
-    height: 50px;
+    background-color: #00263A;
+    height: 50px;   
 }
 
 footer ul{
@@ -238,8 +224,6 @@ footer li{
     text-align: center;
     padding: 0 20px;
 }
-
-
   
   @media only screen and (max-width: 600px) {
 
