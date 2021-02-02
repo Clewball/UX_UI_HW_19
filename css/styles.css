@@ -102,7 +102,11 @@ header{
 
 .inline-block{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: top;        
+}
+
+.inline-block a{
+    font-family:"Lora", Times, serif;
 }
 
 .logo{
@@ -115,7 +119,7 @@ nav{
     width: 40%;
     margin-left: auto;
     font-size: 18px;
-    float: right;
+    float: right;    
 }
 
 ul{
